@@ -11,7 +11,7 @@ include_in_menu: true
 <tr>
 {% assign offset = forloop.index0 | times: 2 %}
 {% for member in site.data.team limit:2 offset:offset %}
-<td><img src="{{ member.picture }}" style="object-fit:contain; width:150px; height:150px;"/></td> <td> <a href="{{ member.website }}"> {{ member.name }} </a> <br> {{ member.position }} </td>
+<td style="width:150px"><img src="{{ member.picture }}" style="object-fit:contain; width:150px; height:150px;"/></td> <td> <a href="{{ member.website }}"> {{ member.name }} </a> <br> {{ member.position }} </td>
 {% endfor %}
 </tr>
 <tr>
