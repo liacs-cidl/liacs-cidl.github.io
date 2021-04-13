@@ -3,3 +3,11 @@
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet nisi egestas augue ullamcorper condimentum commodo id nulla. Donec placerat efficitur euismod. Fusce faucibus nulla ac risus ultricies rhoncus. Maecenas at velit tristique, ultricies elit quis, interdum ligula. Aenean vitae porttitor tellus. Mauris tempor pharetra sagittis. Integer id lacinia magna. Integer elementum, odio eget malesuada congue, lacus nulla accumsan enim, in tincidunt sem tellus eleifend eros. Vivamus neque felis, tempor sed nisl nec, condimentum egestas nibh. Proin interdum lorem libero. In tincidunt nibh justo. Cras ultricies dictum libero, ac pellentesque turpis imperdiet id. Cras non eleifend lorem, tempor sodales erat.
   people: Joost Batenburg, Daan Pelt
   link: /research/ct
+
+- topic: Lifelong Person Re-Identification
+  picture: /assets/img/lifelong.jpg
+  description: Person re-identification (ReID) methods always learn through a stationary domain that is fixed by the choice of a given dataset. In many contexts (e.g., lifelong learning), those methods are ineffective because the domain is continually changing in which case incremental learning over multiple domains is required potentially. In this work we explore a new and challenging ReID task, namely lifelong person re-identification (LReID), which enables to learn continuously across multiple domains and even generalise on new and unseen domains. Following the cognitive processes in the human brain, we design an Adaptive Knowledge Accumulation (AKA) framework that is endowed with two crucial abilities 1) knowledge representation and 2) knowledge operation. Our method alleviates catastrophic forgetting on seen domains and demonstrates the ability to generalize to unseen domains. Correspondingly, we also provide a new and large-scale benchmark for LReID. Extensive experiments demonstrate our method outperforms other competitors by a margin of 5.8% mAP in generalising evaluation.
+  people: Nan Pu, Wei Chen, Yu Liu, Erwin M. Bakker and Michael S. Lew
+  link: /research/lifelong
+
+
